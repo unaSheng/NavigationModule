@@ -30,8 +30,8 @@ extension ViewControllerModule {
     public func viewDidLayoutSubviews() {}
 }
 
-enum ViewControllerModuleInitializer {
-    static func initialize() {
+public enum ViewControllerModuleInitializer {
+    public static func initialize() {
         UIViewController.mtr_add(ViewControllerModuleLoader.shared)
     }
 }
