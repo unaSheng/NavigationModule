@@ -56,7 +56,7 @@
 		4E7CABF87E344895CCD86CF0B3427E64 /* Pods-NavigationModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NavigationModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		578D28E3B46D81D30BEB4B79BBF43490 /* Pods-NavigationModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C9B57A87F147BB815E281B31F154D84 /* Pods-NavigationModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NavigationModule_Example.modulemap"; sourceTree = "<group>"; };
-		5D944EEC0426E966E70D60B0F3F7DEBA /* NavigationModule */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NavigationModule; path = NavigationModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D944EEC0426E966E70D60B0F3F7DEBA /* NavigationModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NavigationModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FAD2E2A5427A4AAB1CCAC43E2FD3DC /* Pods-NavigationModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigationModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7DE540E1399C74CDB2318AA78AF826A8 /* Pods-NavigationModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		07762AFEDCB95E27C573A2F1CA4F6169 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D944EEC0426E966E70D60B0F3F7DEBA /* NavigationModule */,
+				5D944EEC0426E966E70D60B0F3F7DEBA /* NavigationModule.framework */,
 				8B7CAAD9B54D15C4016637BA514699D8 /* Pods-NavigationModule_Example */,
 				8B43F9B08C7058165BD77E29491DF9DA /* Pods-NavigationModule_Tests */,
 			);
@@ -329,7 +329,7 @@
 			);
 			name = NavigationModule;
 			productName = NavigationModule;
-			productReference = 5D944EEC0426E966E70D60B0F3F7DEBA /* NavigationModule */;
+			productReference = 5D944EEC0426E966E70D60B0F3F7DEBA /* NavigationModule.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E5ECEFDA0553433BFCCF71895C94A19F /* Pods-NavigationModule_Example */ = {
@@ -477,7 +477,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -576,7 +576,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

@@ -339,12 +339,7 @@ public class _NavigationModule: ViewControllerModule {
         guard let viewController = self.viewController else { return }
         self.updateBackground()
         self.updateBackButton()
-#if SWIFT_PACKAGE
         viewController.view.bringSubviewToFront(self.navigationView)
-#else
-        viewController.view.bringSubview(toFront: self.navigationView)
-#endif
-
     }
     
     public func viewDidAppear(_ animated: Bool) {

@@ -97,11 +97,7 @@ public class BadgeView: UILabel {
             super.drawText(in: rect)
         } else {
             let insets = UIEdgeInsets(top: 0, left: 3, bottom: 0, right: 3)
-#if SWIFT_PACKAGE
             super.drawText(in: rect.inset(by: insets))
-#else
-            super.drawText(in: UIEdgeInsetsInsetRect(rect, insets))
-#endif
         }
     }
     
