@@ -1,13 +1,11 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '14.0'
 
 target 'NavigationModule_Example' do
   pod 'NavigationModule', :path => '../'
-
   target 'NavigationModule_Tests' do
     inherit! :search_paths
 
-    
   end
 end

@@ -1,0 +1,25 @@
+{
+  "name": "NavigationModule",
+  "version": "0.1.0",
+  "summary": "A short description of NavigationModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/李文秀/NavigationModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "李文秀": "li.wenxiu@immomo.com"
+  },
+  "source": {
+    "git": "https://github.com/李文秀/NavigationModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": [
+    "Sources/NavigationModuleSupport/**/*.{h,m}",
+    "Sources/NavigationModule/*.swift"
+  ]
+}

@@ -1,0 +1,16 @@
+PODS:
+  - NavigationModule (0.1.0)
+
+DEPENDENCIES:
+  - NavigationModule (from `../`)
+
+EXTERNAL SOURCES:
+  NavigationModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NavigationModule: b7decc95c80206c961392f28eded2a1473957616
+
+PODFILE CHECKSUM: cca193d4f31fe94b9513723660f6da35c4a95300
+
+COCOAPODS: 1.13.0

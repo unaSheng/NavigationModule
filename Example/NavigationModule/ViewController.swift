@@ -7,18 +7,14 @@
 //
 
 import UIKit
+import NavigationModule
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    @IBAction func jumpButtonTapped(_ sender: Any) {
+        let userListVC = ListViewController()
+        navigationController?.navigationBar.isHidden = true
+        navigationController?.pushViewController(userListVC, animated: true)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
